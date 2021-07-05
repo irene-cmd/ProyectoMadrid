@@ -1,0 +1,27 @@
+.usuario{
+margin: auto;
+background-color: white;
+}
+
+.perfilusuario{
+margin: auto;
+background-color: wheat;
+border: 5px dotted red;
+}
+
+.perfilusuario p{
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    color: darkblue;
+    background-color: wheat;
+}
+
+.perfilusuario button{
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    color: darkblue;
+    border: 3px solid black;
+    padding: 10px 16px;
+}

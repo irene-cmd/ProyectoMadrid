@@ -1,0 +1,27 @@
+*{box-sizing:border-box}
+
+form{
+    width: 150px;
+    padding: 8px;
+    margin: auto;
+    background-color: lightpink;
+}
+
+form label{
+    width: 20px;
+    font-weight: normal;
+    color: darkblue;
+}
+
+form input{
+    width: 125px;
+    border: 1px solid black;
+    background-color:beige ;
+    margin: 5px 5px;
+}
+
+form button{
+    font-weight: normal;
+    color: darkblue;
+    background-color:beige ;
+}

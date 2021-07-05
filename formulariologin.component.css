@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+
+form{
+    width: 300px;
+    height: 120px;
+    padding: 5px;
+    margin: auto;
+    background-color: pink;
+    text-align: center;
+}
+
+form label{
+    width: 20px;
+    font-weight: normal;
+    color: darkslateblue;
+}
+
+form input{
+    width: 130px;
+    border: 1px solid black;
+    background-color:goldenrod ;
+    margin: 5px 5px;
+}
+
+form button{
+    font-weight: normal;
+    color: darkslateblue;
+    background-color:goldenrod ;
+    padding: 5px;
+}

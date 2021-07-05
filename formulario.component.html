@@ -1,0 +1,33 @@
+<!-- FORMULARIO TEMPLATE -->
+<app-slides></app-slides>
+<form [formGroup]="formulario" ngsubmit="onSubmit()">
+    <div>
+        <label class="form-label">Nombre:</label>
+        <input type="text" class="form-control" formControlName="nombre">
+    </div>
+    <div>
+        <label class="form-label">Apellidos:</label>
+        <input type="text" class="form-control" formControlName="nombre">
+    </div>
+    <div>
+        <label class="form-label">Direccion:</label>
+        <input type="text" class="form-control" formControlName="nombre">
+    </div>
+    <div>
+        <label class="form-label">Email:</label>
+        <input type="text" class="form-control" formControlName="email">
+    </div>
+    <div>
+        <label class="form-label">Edad:</label>
+        <input type="text" class="form-control" formControlName="telefono">
+    </div>
+    <div>
+        <label class="form-label">Sexo:</label>
+        <input type="text" class="form-control" formControlName="telefono">
+    </div>
+    <div>
+        <label class="form-label">¿Cuáles son tus gustos?</label>
+        <input type="text" class="form-control" formControlName="gustos">
+    </div>
+    <button class="btn btn-success">Enviar</button>
+</form>

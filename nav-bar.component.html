@@ -1,0 +1,16 @@
+<ul>
+    <li>Home</li>
+    <li><button type="button">
+            <a [routerLink]="['/usuarios']" routerLinkActive="activo">Perfil-Usuario
+            </a>
+            <ul class="child-route" role="route" routerLinkActive="activo">
+                <li class="button-item"><button><a class="button-link"
+                            [routerLink]="['/usuarios/1']">Perfil-Usuario-Id</a></button>
+                </li>
+
+            </ul>
+        </button>
+    </li>
+    <li><button><a [routerLink]="['/eventos']" routerLinkActive="activo">Eventos</a></button></li>
+    <li><button><a [routerLink]="['/login']" routerLinkActive="activo">Inicio-sesion</a></button></li>
+</ul>

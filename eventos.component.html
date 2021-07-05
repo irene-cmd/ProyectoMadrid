@@ -1,0 +1,23 @@
+<table class="eventos">
+
+    <tr class="cabecera">
+
+        <td class="id">Id</td>
+        <td class="nombre">Nombre</td>
+        <td class="lugar">Lugar</td>
+        <td class="fecha">Fecha</td>
+        <td class="descripcion">Descripcion</td>
+        <td class="">Acciones</td>
+    </tr>
+    <tr class="fila" *ngFor="let evento of eventos">
+
+        <td class="id">{{evento.id}}</td>
+        <td class="nombre">{{evento.nombre}}</td>
+        <td class="lugar">{{evento.lugar}}</td>
+        <td class="fecha">{{evento.fecha | date:'EEEE d MMMM yyyy HH:mm'}}</td>
+        <td class="descripcion">{{evento.descripcion}}</td>
+        <td><button type="button" class="delete" (click)="delete(evento.id)">Delete</button></td>
+    </tr>
+
+</table>
+<div><button class="formularioeventos" (click)="directTo()">Formulario eventos</button></div>

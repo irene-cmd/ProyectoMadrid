@@ -1,0 +1,25 @@
+<form [formGroup]="formularioeventos" (ngSubmit)="onSubmit()">
+    <div>
+        <label class="form-label">Nombre:</label>
+        <input type="text" class="form-control" formControlName="nombre">
+    </div>
+    <div>
+        <label class="form-label">Lugar:</label>
+        <input type="text" class="form-control" formControlName="lugar">
+    </div>
+    <div>
+        <label class="form-label">Fecha:</label>
+        <input type="text" class="form-control" formControlName="fecha">
+    </div>
+    <div>
+        <label class="form-label">Descripcion:</label>
+        <input type="text" class="form-control" formControlName="descripcion">
+    </div>
+    <button class="btn btn-success">Enviar</button>
+</form>
+<!-- n-valid devuelve true si los datos introducidos son validos y false en caso contrario 
+    ng-pristine devuelve true si los datos no se han cambiado
+    ng-dirty para evitar los mensajes de validación hasta que el usuario haya visitado cierto campo.Sólo devuelve true si los datos han sido cambiados
+    ng-touched dice si el usuario ha estado en ese campo/lo ha visitado
+    ng-untouched devuelve true si el usuario no ha visitado el campo
+ -->

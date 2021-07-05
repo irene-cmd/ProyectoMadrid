@@ -1,0 +1,23 @@
+.eventos{
+width: 100%;
+height: fit-content;
+border: 2px solid black;
+font-size: medium;
+font-weight: normal;
+font-style: normal;
+}
+
+.cabecera{
+  background-color: lightcoral;  
+}
+
+.cabecera, .fila{
+color:black;
+}
+
+.fila{
+background-color: lightpink;
+}
+
+
+
